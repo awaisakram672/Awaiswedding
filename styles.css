@@ -1,0 +1,274 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: black;
+    color: gold;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+    color: gold;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid gold;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: gold;
+    font-family: 'Great Vibes', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-links a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Section Styling */
+section {
+    padding: 80px 20px;
+    margin-top: 40px;
+    background: black;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+}
+
+/* Wedding Section */
+#wedding {
+    height: 90vh;
+    background: url('photos/gold-pattern-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: gold;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+}
+
+.wedding-content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+    max-width: 600px;
+}
+
+/* Wedding Images */
+.wedding-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.wedding-images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid gold;
+    transition: transform 0.3s ease;
+}
+
+.wedding-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Mehndi Section */
+#mehndi {
+    background: url('photos/mehndi-gold.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    color: gold;
+}
+
+.mehndi-container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
+.mehndi-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mehndi-images img {
+    width: 150px; /* Reduced size */
+    height: 150px; /* Keep aspect ratio */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid gold;
+    transition: transform 0.3s ease;
+}
+
+.mehndi-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Barat Section */
+#barat {
+    background: url('photos/barat-gold.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    color: gold;
+}
+
+.barat-container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
+.barat-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.barat-gallery img {
+    width: 180px; /* Slightly bigger than Mehndi */
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid gold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.barat-gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px gold;
+}
+
+/* Walima Section */
+#walima {
+    background: url('photos/walima-bg.jpg') center/cover no-repeat; /* Background image */
+    padding: 80px 20px;
+    color: gold;
+    text-align: center;
+}
+
+.walima-container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8); /* Dark tint for readability */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
+.walima-container h1 {
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 20px;
+}
+
+.walima-container p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+/* Walima Image Styling */
+.walima-image {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.walima-image img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid gold;
+    box-shadow: 0 0 10px gold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.walima-image img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px gold;
+}
+
+/* RSVP Button */
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+#contact {
+    background: black;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
